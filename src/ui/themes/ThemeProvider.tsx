@@ -1,7 +1,9 @@
 import React from 'react';
-import AppTheme from './app-theme';
+
 import { Provider as PaperProvider } from 'react-native-paper';
 import { ThemeProvider as EmotionProvider } from '@emotion/react';
+
+import AppTheme from './app-theme';
 
 const ThemeProvider: React.FC = ({ children }) => {
   return (
